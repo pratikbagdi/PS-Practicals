@@ -1,0 +1,32 @@
+Aim :-
+Classification Model
+a. Install relevant package for classification.
+b. Choose classifier for classification problem.
+c. Evaluate the performance of classifier.
+
+Theory :-
+Classification Models -
+•	Classification is a supervised learning task where the model learns from labelled data. This data consists of features (independent variables) and a target variable (dependent variable).
+•	The model’s objective is to learn the mapping between features and the target variable.
+•	During prediction, the model takes unseen data with only features and predicts the corresponding category for the target variable.
+
+Random Forest Classifier –
+•	Random Forest belongs to a family of algorithms called ensemble methods. It combines multiple decision trees, where each tree makes a prediction and the final prediction is the majority vote of all trees.
+•	This approach helps reduce variance and improve the model’s generalizability.
+
+Installation and Imports – 
+•	Scikit-learn is a popular python library for machine learning tasks, including classification. The code checks if it is installed and installs if it needed.
+•	pandas is used for data manipulation.
+•	train_test split helps split the data into training and testing sets. 
+•	RandomForestClassifier is the chosen classifier from scikit-learn.
+•	Accuracy_score and classification report are metrics used to evaluate the model’s performance.
+
+Input :-
+climate_change_data.csv – The dataset consists of 10000 observations on 9 variables they are data, location, country, temperature, CO2 emissions, Sea level rise, precipitation, humidity, Windspeed.
+
+Program :-
+
+Output :-
+
+Conclusion:-
+The program to implement classification model by installing relevant package, choosing classifier for classification problem and evaluating the performance of classifier is executed successfully.

@@ -1,0 +1,23 @@
+Aim :-
+Reading and Writing different types of data sets
+a. Reading different types of datasets (.txt .csv) from web and disk and writing in a file in a specific disk location.
+b. Reading excel data sheet in Python.
+
+Theory :-
+Data Representation and Storage :- The practical explores various data types (text, csv, excel) and their formats and structures. Text files (.txt) store data as plain text while CSV files (.csv) use commas to separate values in a tabular format. Excel is a spreadsheet application that stores data in cells organized into rows and columns. Understanding this file format is crucial for working with different datasets.
+Data Reading and Writing in Python :- Python offers libraries like pandas and requests, for efficient data access and manipulation. pandas is well-suited for tabular data like CSV and Excel, while request helps fetch data from websites.
+File Handling and Path Management :- The practical delves into opening, reading, writing, and processing data files locally or from the web. It’s essential to know how to navigate file path and directories correctly.
+
+Input :-
+perimeter.txt - It is simple text document.
+cars.csv - It is a data set consisting of 32 observations (rows) on 11 variables (columns).
+txt_url - The given link is of the text document consisting the graphical (non-control) characteristics defined by ISO8859-1(1987)
+csv_url - The given link is of the CSV data set consisting of 3 observations (rows) on 3 variables (columns).
+Dataforprac.xlsx – It  is an Excel file containing 8 observations on 3 variables.
+
+Program :-
+
+Output :-
+
+Conclusion:-
+The program to read and write different types of data sets is successfully executed.

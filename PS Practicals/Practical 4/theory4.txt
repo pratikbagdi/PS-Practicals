@@ -1,0 +1,21 @@
+Aim :-
+Correlation and preview window correlation matrix products correlation plot on the data set and visualise giving an overview of relationships among data on arrest data analysis of covariance variance ANOVA if data have categorical variables on the iris data
+
+Theory :-
+Correlation :- Correlation measures the statistical association between two variables. It quantifies the strength and direction of a linear relationship between them. The correlation coefficient ranges from -1 to 1. The value of 1 indicates a perfect positive correlation, -1 indicate perfect negative correlation and zero indicate no correlation. The correlation matrix is calculated using ‘corr ( )’ method in pandas.
+
+Covariance :- Covariance measure how much variable change together. A positive covariance indicates a positive relationship, while a negative covariance indicates a negative relationship. However covariance’s value is not standardized making it difficult to interpret.
+The covariance matrix is not explicitly calculated in the program, but it can be derived from the correlation matrix.
+
+ANOVA (analysis of variance) :-  ANOVA is statistical method used to determine the if there are any statistical significance differences between the means of 3 or more independent group 
+ANOVA is performed to analyse the covariance between each feature of the iris dataset and the categorical variables ‘species’ (setosa, versicolor, virginica). The F-statistic and p-value obtained from ANOVA help to determine whether there are significant differences in means of the groups.
+
+Input :-
+iris.csv – The iris dataset is well-known dataset in the field of machine learning and statistics. The data set consists of 150 samples from their different species of iris flower (setosa, versicolor, virginica). For each species, four features were measured : sepal length, sepal width, petal length, and petal width.
+
+Program :-
+
+Output :-
+
+Conclusion:-
+The program to implement correlation and covariance and perform ANOVA Test on results implemented successfully.

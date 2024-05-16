@@ -1,0 +1,19 @@
+Aim :-
+Regression Model 
+Import a data from web storage. Name the dataset and now do Logistic Regression to find out relation between variables that are affecting the admission of a student in a institute based on his or her GRE score, GPA obtained and rank of the student. Also check the model is fit or not. Require (foreign), require (MASS).
+
+Theory :-
+Logistic regression is a powerful statistical technique widely used in machine learning for binary classification tasks. It aims to model the relationship between a set of independent variables (e.g., GRE score, GPA, rank) and a binary dependent variable (e.g., admission status) by estimating the probability of one class (in this case, admission) occurring given specific values of the independent variables.
+•	Binary Classification: Logistic regression is suitable for predicting outcomes with two possible classes (e.g., admitted/not admitted), unlike linear regression, which handles continuous numerical targets.
+•	Log-Odds Transformation: The core idea lies in transforming the linear combination of independent variables into log-odds of the target class using the sigmoid function (S-shaped curve). This ensures predictions remain within the valid probability range (0 to 1).
+•	Model Coefficients: The model estimates coefficients for each independent variable, reflecting their individual contributions to the log-odds. Positive coefficients indicate a positive association with admission, while negative coefficients suggest an inverse relationship.
+
+Input :-
+Admission.csv – The dataset consists of 400 observations (rows) on 4 variables (columns) they are admit, gre, gpa and rank.
+
+Program :-
+
+Output :-
+
+Conclusion:-
+The program to implement Regression Model to perform operations on student result and score dataset implemented successfully.

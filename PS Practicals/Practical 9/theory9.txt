@@ -1,0 +1,23 @@
+Aim :-
+Write a program to implement k-Nearest Neighbour algorithm to classify the iris data set. Print both correct and incorrect predictions.
+
+Theory :-
+The k-Nearest Neighbours (kNN) algorithm is a simple yet effective supervised learning algorithm used for classification and regression tasks. In classification tasks, it assigns a class label to a sample based on the majority class among its k nearest neighbours. The algorithm operates under the assumption that similar data points tend to belong to the same class.
+Key steps of the kNN algorithm:
+1.	Load the dataset: Obtain a dataset with labelled samples.
+2.	Preprocess the data: This step involves data cleaning, normalization, and splitting the dataset into training and testing sets. Normalization is important to ensure that each feature contributes equally to the distance computation.
+3.	Choose the value of k: The parameter k represents the number of nearest neighbours to consider when making predictions. It is typically chosen empirically or through techniques like cross-validation.
+4.	Compute distances: For each test sample, calculate the distance to all training samples. Common distance metrics include Euclidean distance, Manhattan distance, and Minkowski distance.
+5.	Find the k nearest neighbours: Select the k training samples with the shortest distances to the test sample.
+6.	Classify the test sample: Assign the class label that is most frequent among the k nearest neighbours. In the case of ties, a simple solution is to choose the class label of the closest neighbour.
+7.	Evaluate the model: Assess the performance of the model using evaluation metrics such as accuracy, precision, recall, and F1-score.
+
+Input :-
+iris.csv – The iris dataset is classic dataset in machine learning and statistics. The data set consists of 150 samples of iris flowers, each with four features (attributes) sepal length, sepal width, petal length, and petal width. Each sample belongs to one of three species setosa, versicolor, virginica. 
+
+Program :-
+
+Output :-
+
+Conclusion:-
+The program to implement k-Nearest Neighbour algorithm to classify the iris data set is successfully executed.

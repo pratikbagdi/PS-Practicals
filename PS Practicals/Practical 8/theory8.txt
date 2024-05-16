@@ -1,0 +1,25 @@
+Aim :-
+Clustering model 
+a. Clustering algorithms for unsupervised classification. 
+b. Plot the cluster data using matplotlib visualizations. 
+
+Theory :-
+K-Means Clustering is a fundamental unsupervised machine learning algorithm used for grouping data points into a predefined number of clusters (K). It assumes that data points within a cluster are similar to each other and dissimilar to data points in other clusters.
+K-means is an iterative algorithm that aims to partition n observations into k clusters. The algorithm works as follows :-
+1. Initialization: Randomly select K cluster centroids.
+2. Assignment: Assign each data point to the nearest cluster centroid based on a distance metric, typically Euclidean distance.
+3. Update: Recalculate the cluster centroids as the mean of all data points assigned to each cluster.
+4. Repeat Steps 2 and 3 until convergence, i.e., until the centroids no longer change significantly or a specified number of iterations is reached.
+
+Matplotlib Visualization
+Matplotlib is a Python library used for creating static, interactive, and animated visualizations. In the provided program, Matplotlib is used to visualize the clustered data points. The scatter plot is used to plot the data points, where each point is coloured based on its assigned cluster. Additionally, blank squares are used to represent the centroids of each cluster.
+
+Input :-
+The code uses the iris dataset, commonly used for demonstrating clustering algorithms. This dataset consists of 150 samples from three Iris flower species, each described by four features: sepal length, sepal width, petal length and petal width.
+
+Program :-
+
+Output :-
+
+Conclusion:-
+The program to implement clustering model by using clustering algorithm for unsupervised classification and plot the cluster data using matplotlib visualization is successfully executed.

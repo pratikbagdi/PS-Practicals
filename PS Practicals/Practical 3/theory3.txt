@@ -1,0 +1,30 @@
+Aim :-
+Visualizations
+a. Find the data distributions using box and scatter plot.
+b. Find the outliers using plot.
+c. Plot the histogram, bar chart and pie chart on sample data.
+
+Theory :-
+Data Distribution using Box and Scatter Plots :
+a) Box Plot :
+A box plot (box-and-whisker) plot is a graphical representation of the distribution of a dataset. It displays the summary of a set data values, including the minimum, first quartile (Q1), median, third quartile (Q3), and maximum.
+b) Scatter Plot :
+A Scatter plot is a two-dimensional data visualization that uses points to represent individual observations. Each point on the plot represents the values of two variables.
+
+Finding Outliers using Box Plot:
+Outliers are data points that significantly differ from the rest of the data. In a box plot , outliers are often represented as individual points beyond the whiskers. Identifying outliers is important for understanding the data’s overall distribution and detecting any anomalies or errors.
+ 
+Histogram, Bar Chart and Pie Chart
+a) Histogram :
+A histogram is a graphical representation of the distribution of a dataset. It divides the data into bias and displays the frequency of observations in each bin. Histograms are useful for understanding the underlying probability distribution of a continuous variable.
+b) Bar Chart :
+A bar chart (or bar graph) presents categorical data with rectangular bars. The lengths of the bars are proportional to the values they represent. Bar charts are commonly used to compare the values of different categories.
+c) Pie Chart :
+A pie chart is a circular statistical graphic divided into slices to illustrate numerical properties. Each slice represents a proportionate part of the whole. Pie charts are useful for displaying the composition of a categorical variable as a part of a whole. 
+
+Program :-
+
+Output :-
+
+Conclusion:-
+The program to implement visualizations to plot some of types of plots on sample dataset performed successfully.

@@ -1,0 +1,38 @@
+Aim :-
+Descriptive Statistics
+a. Write a program to find basic descriptive statistics using summary, str, quartile function on mtcars & cars datasets.
+b. Write a program to find subset of dataset by using subset( ), aggregate( ) functions on iris dataset.
+
+Theory :-
+Descriptive statistic is about describing and summarising data. 
+It use two main approaches :
+1. The quantitative approach describes and summarizes that data numerically.
+2. The visual approach illustrates data with charts, plots, histograms, and other graphs.
+You can apply descriptive statistics to one or more datasets or variable. When you describe the and summarize a single variable, you are performing univariate analysis.
+ When you search for statistical relationship among pair of variables, you are doing bivariate analysis.
+Similarly, a multivariate analysis is concerned with multiple variable at once.
+1. describe( ) :- The describe( ) method returns description of the data in the database is the Data Frame. If the Data Frame contains numerical data, the description contains these information of each column :
+count - The number of non-empty values
+mean - The average (mean) values
+std - The standard deviation 
+min - The minimum value 
+25% - The 25% percentile* 
+50% - The 50% percentile* 
+75% - The 75% percentile*
+max - The maximum value 
+2. info ( ) - The info ( ) method prints information about the Data Frame. The information contains the number of the columns, column labels, column data types, memory usage, range index, and the number of cells in each column (non-null values). 
+3. quantile ( ) - The quantile ( ) method calculates the quantile of the value in the given axis. Default axis is row. By specifying the column axis (axis = ‘columns’), the quantile ( ) method calculate the quantile column-wise and returns the mean value for each row.
+4. subset ( ) - The subset function is used to extract a specific subset of the dataset based on certain conditions.
+5. groupby ( ) -  The ‘groupby( )’ function is powerful tool for grouping data based on one or more criteria and applying function to each group independently.
+6. agg ( ) – The ‘agg ( )’ function is used to aggregate data in a Data Frame or a series. The function is used in conjugation with ‘group by ( )’ for more complex data aggregation tasks.
+
+Input :-
+mtcars.csv – This dataset consists of 32 observations (rows) on 11 numeric variables (columns) : mpg, cyl. disp, hp, drat, wt, qsec, vs, am, gear, and carb.
+iris.csv - This dataset consists of 150 samples from 3 Iris flower species, each described by four features: sepal length, sepal width, petal length and petal width.
+
+Program :-
+
+Output :-
+
+Conclusion:-
+The program to implement descriptive statistics to perform relevant given operations on iris, mtcars and cars dataset is executed successfully.

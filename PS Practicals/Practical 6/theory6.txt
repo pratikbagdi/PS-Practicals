@@ -1,0 +1,27 @@
+Aim :-
+Multiple regression model 
+Apply multiple regressions, if data have a continuous independent variable. Apply on above dataset. 
+
+Theory :-
+Multiple linear regression is a statistical technique that helps us understand the relationship between multiple independent variables and a dependent variable. It is an extension of simple linear regression, which only considers one independent variable.
+Independent variables: These are the variables that are believed to influence the dependent variable. 
+For e.g., Average area income, Average area house age, Average area number of rooms, Average area number of bedrooms, Area population
+Dependent variable: This is the variable that we are trying to predict or explain. 
+For e.g., price of a house
+Linear relationship: The core assumption of multiple linear regression is that there exists a linear relationship between the independent variables and the dependent variable. This means that the changes in the dependent variable can be modelled as a straight line in relation to the changes in the independent variables.
+Steps involved in building a multiple linear regression model:
+1.	Data collection: Collect data that includes the independent variables and the dependent variable.
+2.	Data preparation: Clean and pre-process the data to ensure its suitability for the analysis.
+3.	Model fitting: Train the model using a training dataset, which helps the model learn the relationship between the independent and dependent variables.
+4.	Evaluation: Evaluate the model's performance on a separate testing dataset to assess its generalizability and effectiveness in predicting the dependent variable.
+5.	Interpretation: Analyze the model coefficients and intercept to understand the direction and strength of the relationships between the independent variables and the dependent variable.
+
+Input :-
+housing.csv – The dataset consists of 5000 observations on 7 variables they are avg. area income, avg. area house age, avg. area number of rooms, avg. area number of bedrooms, area population, price, address.
+
+Program :-
+
+Output :-
+
+Conclusion :- 
+The program for multiple regression model implemented successfully.

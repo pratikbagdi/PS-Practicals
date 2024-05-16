@@ -1,0 +1,27 @@
+Aim :-
+Implement k-means algorithm to classify the iris dataset.
+
+Theory :-
+K-means clustering is an unsupervised machine learning algorithm used to partition a dataset into K distinct, non-overlapping clusters. The goal is to minimize the sum of squared distances between data points and their corresponding cluster centroids.
+Algorithm Steps:
+1.	Initialization: Randomly select K data points from the dataset as initial cluster centroids.
+2.	Assignment: Assign each data point to the nearest centroid, forming K clusters.
+3.	Update Centroids: Calculate the mean of all data points in each cluster and update the centroids.
+4.	Repeat Steps 2 and 3 until convergence, i.e., until the centroids no longer change significantly or a maximum number of iterations is reached.
+
+Application of K-means to Iris Dataset:
+1.	Data Loading: Load the Iris dataset containing feature vectors representing the characteristics of iris flowers.
+2.	Preprocessing: No significant preprocessing is required for K-means, as it operates on numerical feature vectors.
+3.	K-means Clustering: Apply the K-means algorithm to cluster the iris data points into K clusters.
+4.	Evaluation: Assess the quality of clustering using metrics like silhouette score or visually inspecting cluster separation.
+5.	Visualization: Visualize the clusters and centroids to interpret the results and gain insights into the data distribution.
+
+Input :-
+iris.csv – The iris dataset is classic dataset in machine learning and statistics. The data set consists of 150 samples of iris flowers, each with four features (attributes) sepal length, sepal width, petal length, and petal width. Each sample belongs to one of three species setosa, versicolor, virginica. 
+
+Program :-
+
+Output :-
+
+Conclusion :-
+The program to implement k-means algorithm to classify the iris dataset is successfully executed.
